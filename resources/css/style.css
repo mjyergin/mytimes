@@ -18,6 +18,10 @@ span {
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
+  position: fixed;
+  z-index: 5;
+  background-color: white;
+  width: 100%;
 }
 
 li span {
@@ -35,6 +39,8 @@ ul {
   display: flex;
   justify-content: space-between;
   height: 100%;
+  position: relative;
+  top: 100px;
 
 }
 .column {
@@ -43,16 +49,13 @@ ul {
 }
 .column.large {
   width: 630px;
-  /*display: flex;*/
 }
 
 .column.medium {
   width: 300px;
-  display: flex;
 }
 
 .column.small {
   width: 240px;
-  display: flex;
 
 }
