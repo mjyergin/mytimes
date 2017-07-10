@@ -9,7 +9,9 @@
   margin-left: 40px;
   display: flex;
   align-items: center;
-
+}
+span {
+  margin-left: 15px;
 }
 
 .header {
@@ -19,15 +21,8 @@
 }
 
 li span {
-  /*display: inline-block;*/
   text-decoration: underline;
 }
-
-/*h4 {
-  display: inline-block;
-  margin-bottom: 0px;
-}*/
-
 li {
   display: inline-block;
   margin-right: 10px;
@@ -35,4 +30,29 @@ li {
 
 ul {
   margin-right: 40px;
+}
+.main {
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+
+}
+.column {
+  border: 2px solid black;
+  /*display: flex;*/
+}
+.column.large {
+  width: 630px;
+  /*display: flex;*/
+}
+
+.column.medium {
+  width: 300px;
+  display: flex;
+}
+
+.column.small {
+  width: 240px;
+  display: flex;
+
 }
